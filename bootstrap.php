@@ -3,7 +3,7 @@
 // AutoLoader do Composer
 $loader = require __DIR__.'/vendor/autoload.php';
 // Inclusão das classes ao AutoLoader
-$loader->add('doctrine', __DIR__.'/src');
+$loader->add('DoctrineNaPratica', __DIR__.'/src');
 
 
 use Doctrine\ORM\Tools\Setup;
@@ -16,14 +16,14 @@ use Doctrine\Common\Annotations\AnnotationRegistry;
 $isDevMode = false;
 
 // Path das entidades
-$paths = array(__DIR__ . '/src/Doctrine/Model');
+$paths = array(__DIR__ . '/src/DoctrineNaPratica/Model');
 
 // Configurações do banco de dados
 $dbParams = array(
-    'driver'   => 'pdo_mysql',
+    'driver'   => 'pdo_mysql',    
     'user'     => 'root',
     'password' => 'root',
-    'dbname'   => 'doctrine',
+    'dbname'   => 'dnp',
 );
 
 $config = Setup::createConfiguration($isDevMode);

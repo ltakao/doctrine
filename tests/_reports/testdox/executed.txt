@@ -1,0 +1,3 @@
+DoctrineNaPratica\Model\User
+ [x] User
+
