@@ -1,3 +1,8 @@
 DoctrineNaPratica\Model\User
  [x] User
+ [ ] User subscription
+ [x] User enrollment
+ [x] User course
+ [x] User lesson
+ [x] User profile
 
